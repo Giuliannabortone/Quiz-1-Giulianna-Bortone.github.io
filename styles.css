@@ -23,6 +23,8 @@ header{
 }
 
 nav ul{
+    position: fixed;
+    width: 100%;
     padding-left: 20%;
     list-style: none;
     background: white;
@@ -46,52 +48,61 @@ ul li a{
 
 nav ul li:hover{
     background:#3F0047;
-
 }
 
 
+img{
+    position: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .contenedor{
+    width: 200%;
+    position: relative;
+    height: 780px;
+  }
+  
+  .botones{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  
+  }
+  
+  .botones:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+  }
+  
+  .back{
+    left: 3%;
+    top: 30%
+  }
+  
+  .next{
+    right: 49%;
+    top: 30%
+  }
 
-    
+  .morado{
+    margin-left: 60px;
+    margin-top: 30px;
+    position: absolute;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
 
-
-
-.container-slider{
-    width: 30%;
-    max-width: 9px;
-
-
-}
-
-.slider{
-    display: flex;
-    width: 5%;
-    height: 5%;
-}
-
-.slider__sectior{
-
-}
-
-.slide__img{
-    display: block;
-    width: 401.82px;
-    height: 379px;
-
-}
-
-.slider__btn{
-
-}
-
-.slider__btn:hover{
-
-}
-
-.slider__btn--left{
-
-}
-
-
-.slider_btn--right{
-
-}
+  }
