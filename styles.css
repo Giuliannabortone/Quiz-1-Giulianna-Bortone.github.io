@@ -23,16 +23,20 @@ header{
 
 
 nav ul{
+    top: 0;
+    position: sticky;
+    z-index: 999;
     width: 100%;
     padding-left: 20%;
     list-style: none;
-    background: white;
+    background:#3F0047;
     display: block;
 
 }
 
 
 nav ul li{
+top: 0px;
 display: inline-block;
 padding: 20px;
 transition: all ease-in-out 250ms;
@@ -40,21 +44,25 @@ transition: all ease-in-out 250ms;
 }
 
 ul li a{
+    top: 0px;
+    position: sticky;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     font-family: 'Commissioner', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
-    color:gray;
+    color: white;
     text-decoration: none;
 }
 
 nav ul li:hover{
-    background:#3F0047;
+    position: sticky;
+    background: lightslategray
 }
 
 .container{
-    top: 0; /* Position the navbar at the top of the page */
+    top: 0px;
+    position: sticky;; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
 
@@ -158,7 +166,7 @@ img{
   }
 
   .parrafo{
-      font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:40px;
     margin-left: 30px;
     margin-top: 50px;
@@ -177,4 +185,8 @@ img{
     background-color: #827397;
     justify-content: space-around;
   }
+  
+  .experiencia{
+        
+       }
   

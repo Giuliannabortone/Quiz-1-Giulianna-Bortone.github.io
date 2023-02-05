@@ -32,3 +32,5 @@ document.addEventListener("DOMContentLoaded", () => {
   let contenedor = document.querySelector('.contenedor');
   hero_slider(contenedor);
 });
+
+
