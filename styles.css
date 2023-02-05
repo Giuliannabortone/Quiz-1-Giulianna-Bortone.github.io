@@ -8,7 +8,6 @@
 
 
 .body{
-    display: flex;
     font-family: 'Commissioner', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -22,14 +21,16 @@ header{
 
 }
 
+
 nav ul{
-    position: fixed;
     width: 100%;
     padding-left: 20%;
     list-style: none;
     background: white;
+    display: block;
 
 }
+
 
 nav ul li{
 display: inline-block;
@@ -39,6 +40,8 @@ transition: all ease-in-out 250ms;
 }
 
 ul li a{
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
     font-family: 'Commissioner', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
@@ -50,17 +53,22 @@ nav ul li:hover{
     background:#3F0047;
 }
 
+.container{
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
 
 img{
+
     position: center;
-    padding-top: 100px;
+    padding-top: 10px;
     width: 100%;
     height: 100%;
   }
   
   
   .contenedor{
-    width: 200%;
+    width: 100%;
     position: relative;
     height: 780px;
   }
@@ -94,7 +102,7 @@ img{
   }
   
   .next{
-    right: 49%;
+    right: 3%;
     top: 30%
   }
 
@@ -106,3 +114,67 @@ img{
     font-family: 'Poppins', sans-serif;
 
   }
+
+  .cuadrado{
+    padding: 0;
+    height: 300px;
+    text-align:center;
+    font-size:300%;
+    width: 300%;
+
+  }
+
+  .lista{
+    padding-left: 50px;
+    padding-top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size:200%;
+    color: black;
+
+  }
+
+  .lista2{
+    padding-left: 700px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size:200%;
+    color: black;
+
+  }
+
+  .morado2{
+    padding-left: 900px;
+    margin-top: 30px;
+    position: absolute;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .cuadrito{
+    background:#827397;
+  }
+
+  .parrafo{
+      font-family: 'Poppins', sans-serif;
+    font-size:40px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: black;
+  
+  }
+
+  .fotografia{
+    width: 300px;
+    height: 300px;
+
+  }
+  
+  .about_me{
+    display: flex;
+    background-color: #827397;
+    justify-content: space-around;
+  }
+  
